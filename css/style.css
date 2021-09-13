@@ -2,23 +2,27 @@
 body {
   color: #444;
   font-size: 16px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Gentium Book Basic', sans-serif;
+  background-color: #F8EEE7;
 }
 p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: #49274A;
 }
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
   color: #D0D0D0;
+  background-color: #94618E;
 }
 /*-- Main Menu Styles--*/
 nav ul {
   list-style: none;
   padding: 1em;
+  display: flex;
+  justify-content: space-between;
 }
 nav a:link, nav a:visited {
   color: #D0D0D0;
@@ -36,34 +40,53 @@ header {
   width: 510px;
   margin-top: 2em;
   margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 header img {
   width: 100%;
   margin: 0 auto;
 }
 header h1 {
+  text-align: center;
+  color: #D0D0D0;
   margin: 0 auto;
   padding: 0 auto;
+  background-color: #94618E;
 }
 .small {
   margin-top: 1em;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 /*-- Article Styles--*/
 article {
   width: 768px;
   font-size: 18px;
   line-height: 1.3;
+  margin-left: auto;
+  margin-right: auto;
 }
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
+  float: right;
 }
 article figcaption {
+  font-size: smaller;
+  font-weight: lighter;
+  font-family: 'Lato', sans-serif;
 }
 .pagination {
   margin-top: 2em;
   margin-bottom: 2em;
   width: 96%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
 a.button {
   border: 1px solid #888;
